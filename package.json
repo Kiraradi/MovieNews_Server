@@ -1,0 +1,31 @@
+{
+  "name": "movienews_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiraradi/MovieNews_Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiraradi/MovieNews_Server/issues"
+  },
+  "homepage": "https://github.com/Kiraradi/MovieNews_Server#readme",
+  "dependencies": {
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.0",
+    "koa-slow": "^2.1.0",
+    "koa-static": "^5.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
